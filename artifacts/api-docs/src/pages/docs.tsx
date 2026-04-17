@@ -75,7 +75,7 @@ export default function Docs() {
               <span className="w-2 h-2 rounded-full bg-orange-400" />
               <span className="text-sm font-semibold">Anthropic</span>
             </div>
-            {["claude-opus-4-6", "claude-opus-4-5", "claude-sonnet-4-6", "claude-sonnet-4-5", "claude-haiku-4-5"].map((m) => (
+            {["claude-opus-4-7", "claude-opus-4-6", "claude-opus-4-5", "claude-sonnet-4-6", "claude-sonnet-4-5", "claude-haiku-4-5"].map((m) => (
               <div key={m} className="font-mono text-xs text-muted-foreground pl-4">{m}</div>
             ))}
           </div>

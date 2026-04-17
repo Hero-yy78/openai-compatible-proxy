@@ -4,6 +4,12 @@ const router: IRouter = Router();
 
 const SUPPORTED_MODELS = [
   {
+    id: "claude-opus-4-7",
+    object: "model",
+    created: 1716000000,
+    owned_by: "anthropic",
+  },
+  {
     id: "claude-opus-4-6",
     object: "model",
     created: 1714000000,

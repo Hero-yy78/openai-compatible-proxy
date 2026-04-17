@@ -1,6 +1,7 @@
 import { useState, useRef, useCallback } from "react";
 
 const MODELS = [
+  { id: "claude-opus-4-7", provider: "Anthropic", label: "Claude Opus 4.7" },
   { id: "claude-opus-4-6", provider: "Anthropic", label: "Claude Opus 4.6" },
   { id: "claude-sonnet-4-6", provider: "Anthropic", label: "Claude Sonnet 4.6" },
   { id: "claude-haiku-4-5", provider: "Anthropic", label: "Claude Haiku 4.5" },
